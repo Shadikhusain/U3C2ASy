@@ -1,0 +1,46 @@
+#navbar {
+    height: 50px;
+    width: 98%;
+    background-color: rgb(45, 229, 226);
+    color: white;
+    display: flex;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#chotediv {
+    border: 2px solid rgb(153, 255, 0);
+    width: 350px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    background-color: rgb(231, 228, 7);
+    color: rgb(197, 10, 10);
+    border-radius: 15px;
+    cursor: pointer;
+    height: 22px;
+}
+
+button:hover {
+    background-color: green;
+    color: aqua;
+}

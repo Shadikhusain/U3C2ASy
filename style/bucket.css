@@ -1,0 +1,31 @@
+#chotecartdiv {
+    border: 2px solid palevioletred;
+    display: flex;
+    ;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bucket {
+    grid-gap: 11px;
+    display: flex;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+button {
+    background-color: rgb(227, 9, 9);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 2px;
+}
+
+#confirm_checkout {
+    height: 50px;
+    color: white;
+    text-decoration: none;
+}
